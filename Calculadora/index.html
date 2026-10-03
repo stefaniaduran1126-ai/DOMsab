@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+</head>
+<body>
+ <nav><h3>Operaciones</h3></nav>
+ <main>
+    <div class="Calculadora">
+<div class="Calculadora_nros">
+    <label for="">Numero 1</label>
+    <input type="number" name="nro1" id="nro1" placeholder="0">
+    <label for="">numero 2</label>
+    <input type="number"name="nro2" id="nro2" placeholder="0">
+
+</div>
+<div class=""Calculadora_btns">
+    <input type="button" value="+"    onclick="Operaciones('+')">
+    <input type="button" value="-"    onclick="Operaciones('-')">
+    <input type="button" value="*"    onclick="Operaciones('*')">
+    <input type="button" value="/"    onclick="Operaciones('/')">
+    <input type="button" value="cl"   onclick="Operaciones('cl')">
+ </div>
+
+<div class="Calculadora_resultado">
+    <label for=""id= "resultados">000</label>
+
+ </div>   
+</div>
+ </main>
+<script src="script.js"></script>
+<script src=""></script>
+</body>
+</html>
